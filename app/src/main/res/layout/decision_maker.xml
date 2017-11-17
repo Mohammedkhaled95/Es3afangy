@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#7aa7e6"
+
+    tools:context="com.example.khaled.es3afangy.DecisionMaker">
+
+    <EditText
+        android:id="@+id/decision_maker_name"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="8dp"
+        android:ems="12"
+        android:hint="  Name"
+        android:background="#FFFFFF"
+
+        />
+
+    <EditText
+        android:id="@+id/decision_maker_id"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="8dp"
+        android:ems="12"
+        android:inputType="number"
+        android:background="#FFFFFF"
+
+        android:hint="  ID"
+
+        />
+
+    <EditText
+        android:id="@+id/decision_maker_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="8dp"
+        android:ems="12"
+        android:hint="  phone"
+        android:inputType="phone"
+        android:background="#FFFFFF"
+
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/decision_maker_email"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="8dp"
+        android:background="#FFFFFF"
+
+        android:ems="12"
+        android:hint="  username@example.com"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <EditText
+        android:id="@+id/decision_maker_password"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="8dp"
+        android:ems="12"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+
+
+        android:hint="********"
+
+        />
+    <EditText
+        android:id="@+id/decision_maker_confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="8dp"
+        android:ems="12"
+        android:inputType="textPassword"
+        android:hint="********"
+        android:background="#FFFFFF"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/decision_maker_save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#7aa7e6"
+        style="@style/fonts"
+        android:background="#FFFFFF"
+
+        />
+    <ProgressBar
+        android:id="@+id/maker_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:theme="@style/CircularProgress"
+        android:visibility="invisible"
+
+
+        />
+
+</LinearLayout>

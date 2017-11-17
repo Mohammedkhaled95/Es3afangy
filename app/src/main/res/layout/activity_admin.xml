@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#7aa7e6"
+    tools:context="com.example.khaled.es3afangy.Admin">
+
+
+    <Button
+        android:id="@+id/add_organiztion"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:text="إضافة مؤسسة "
+        style="@style/fonts"
+        android:layout_margin="16dp"
+        android:textColor="#7aa7e6"
+        android:background="#FFFFFF"
+
+        />
+
+
+    <Button
+    android:id="@+id/add_ambulance"
+    android:layout_width="176dp"
+    android:layout_height="wrap_content"
+    android:text="إضافة متخذ القرار "
+    style="@style/fonts"
+        android:layout_margin="16dp"
+        android:textColor="#7aa7e6"
+        android:background="#FFFFFF"
+
+
+        />
+
+
+
+
+</LinearLayout>

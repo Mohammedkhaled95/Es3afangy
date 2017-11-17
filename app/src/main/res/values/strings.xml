@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Es3afangy</string>
+
+    <string name="recovery_button">Recover My Account</string>
+    <string name="Signup_button">Sign Up</string>
+    <string name="forgot_password"><u>Fogot Password ?</u></string>
+    <string name="new_user"><u>New User</u></string>
+    <string name="login_button">LOGIN</string>
+    <string name="slash">|</string>
+    <string name="phone_hint">Phone</string>
+    <string name="register">Register</string>
+    <string name="name_hint">Name</string>
+    <string name="loading_empty">Loading…</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="email_hint">username@example.com</string>
+    <string name="password_hint">********</string>
+</resources>

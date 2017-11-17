@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:layout_margin="0dp"
+    android:background="#7aa7e6"
+
+    tools:context="com.example.khaled.es3afangy.OrganizationManagerView">
+
+    <TextView
+        android:id="@+id/current_organization_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Organization name"
+        android:textColor="#7aa7e6"
+        android:background="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:textSize="28sp"
+        style="@style/fonts"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/current_organization_list"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/fonts"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+
+            android:gravity="center"
+            android:text="Max Beds"
+            android:textColor="#7aa7e6"
+
+
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/edit_organization_max_beds"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="max bed"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="#7aa7e6"
+            android:background="#FFFFFF"
+            android:textSize="20sp"
+
+            android:ems="8"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="Available Beds"
+            android:textColor="#7aa7e6"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textSize="20sp"
+            style="@style/fonts"
+            />
+        <EditText
+            android:id="@+id/edit_organization_available_beds"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="available bed"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:textColor="#7aa7e6"
+            android:background="#FFFFFF"
+            android:textSize="16sp"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_margin="32dp"
+        >
+        <Button
+            android:id="@+id/edit_organization_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textColor="#7aa7e6"
+            android:background="#FFFFFF"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginLeft="8dp"
+            android:textColor="#7aa7e6"
+            android:textSize="20sp"
+            android:background="#FFFFFF"
+            android:visibility="gone"
+
+            />
+        <ProgressBar
+            android:id="@+id/organization_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:theme="@style/CircularProgress"
+            android:layout_marginLeft="8dp"
+            android:visibility="invisible"
+
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

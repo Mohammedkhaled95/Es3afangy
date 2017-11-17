@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7aa7e6"
+    android:layout_margin="8dp"
+
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        tools:context="com.example.khaled.es3afangy.Organiztion">
+
+        <EditText
+
+            android:id="@+id/organiztion_name"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/organiztion_address"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+
+            android:hint="Address" />
+
+        <EditText
+            android:id="@+id/organiztion_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+
+            android:ems="12"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+            android:hint="phone number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/organiztion_maximum_beds"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+
+            android:hint="maximum beds"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/organiztion_available_beds"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+            android:ems="12"
+
+            android:hint="available beds"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/manager_name"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:hint="Manager Name"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+
+            />
+
+        <EditText
+            android:id="@+id/manager_id"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:inputType="number"
+            android:hint="Manager ID"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+
+            />
+
+        <EditText
+            android:id="@+id/manager_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:inputType="phone"
+            android:hint="Manager phone"
+
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+            />
+
+        <EditText
+            android:id="@+id/manager_email"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:hint="Manager email"
+            android:inputType="textEmailAddress"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+
+            />
+
+        <EditText
+            android:id="@+id/manager_password"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:inputType="textPassword"
+            android:hint="Manager password"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+
+            />
+        <EditText
+            android:id="@+id/manager_confirm_password"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:inputType="textPassword"
+            android:hint="confirm password"
+            android:background="#FFFFFF"
+            android:textColor="#7aa7e6"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/save_Organization"
+                style="@style/fonts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Save"
+                android:background="#FFFFFF"
+                android:textColor="#7aa7e6"/>
+            <ProgressBar
+                android:id="@+id/organization_progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:theme="@style/CircularProgress"
+                android:layout_marginLeft="8dp"
+                android:visibility="invisible"
+
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

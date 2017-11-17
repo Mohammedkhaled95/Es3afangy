@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+
+    tools:context="com.example.khaled.es3afangy.DecisionMakerView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#7aa7e6"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="م"
+            android:textColor="#ffffff"
+            style="@style/fonts"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="50dp"
+            android:text="اسم المؤسسة"
+            style="@style/fonts"
+            android:textColor="#ffffff"
+
+            android:gravity="center"
+
+            android:layout_marginLeft="8dp"
+            />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="متاح"
+            android:gravity="center"
+            android:textColor="#ffffff"
+
+
+            style="@style/fonts"
+            android:layout_marginLeft="16dp"
+            />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="50dp"
+            android:text="تاريخ اخر تعديل"
+            android:gravity="center"
+            android:textColor="#ffffff"
+
+
+            android:layout_marginLeft="32dp"
+            style="@style/fonts"
+            />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffffff"
+        android:layout_margin="8dp"
+        android:background="#FFFFFF"
+
+
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
